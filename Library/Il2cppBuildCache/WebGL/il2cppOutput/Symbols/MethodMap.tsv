@@ -567,6 +567,7 @@ AttributeUsageAttribute_get_AllowMultiple_mE121D3984FA95C901E58938245F51B2B1CB34
 AttributeUsageAttribute_get_Inherited_mD904AEF1FEB36C651C0700587E52CA653A29E9EB	System.Boolean System.AttributeUsageAttribute::get_Inherited()	mscorlib
 AttributeUsageAttribute_set_AllowMultiple_mF412CDAFFE16D056721EF81A1EC04ACE63612055	System.Void System.AttributeUsageAttribute::set_AllowMultiple(System.Boolean)	mscorlib
 AttributeUsageAttribute_set_Inherited_m56105980C36CB71AECD398C6077739BDFD2085E0	System.Void System.AttributeUsageAttribute::set_Inherited(System.Boolean)	mscorlib
+AudioClip__ctor_m25D83075F6C4735DF4E997F08E13E7EF6114C9B3	System.Void UnityEngine.AudioClip::.ctor()	UnityEngine.AudioModule
 AudioClip_InvokePCMReaderCallback_Internal_m9CB2976CDC2C73A92479F8C11C30B17FAA05751F	System.Void UnityEngine.AudioClip::InvokePCMReaderCallback_Internal(System.Single[])	UnityEngine.AudioModule
 AudioClip_InvokePCMSetPositionCallback_Internal_m9F3ACF3A244349568C0D0D1D40EE72EF013FB45D	System.Void UnityEngine.AudioClip::InvokePCMSetPositionCallback_Internal(System.Int32)	UnityEngine.AudioModule
 AudioClipPlayable_Equals_m52ECDD49AE6BD8AB4C0AC83C417A0C1B23E3E55E	System.Boolean UnityEngine.Audio.AudioClipPlayable::Equals(UnityEngine.Audio.AudioClipPlayable)	UnityEngine.AudioModule
@@ -578,6 +579,10 @@ AudioSampleProvider_InvokeSampleFramesOverflow_m998BEADD2A2B4BEF0906A31108B6DC48
 AudioSettings_InvokeOnAudioConfigurationChanged_m2CBD1FC39E7AE46E07E777990310D1DC40FB980E	System.Void UnityEngine.AudioSettings::InvokeOnAudioConfigurationChanged(System.Boolean)	UnityEngine.AudioModule
 AudioSettings_InvokeOnAudioSystemShuttingDown_mFC13542FE10DED62F53F5DBF3F98A7FAD2F7A8D8	System.Void UnityEngine.AudioSettings::InvokeOnAudioSystemShuttingDown()	UnityEngine.AudioModule
 AudioSettings_InvokeOnAudioSystemStartedUp_mE33E76B3D5480EE298219B734A5F736F75B1C24E	System.Void UnityEngine.AudioSettings::InvokeOnAudioSystemStartedUp()	UnityEngine.AudioModule
+AudioSource_Play_mED16664B8F8F3E4D68785C8C00FC96C4DF053AE1	System.Void UnityEngine.AudioSource::Play()	UnityEngine.AudioModule
+AudioSource_PlayHelper_mAE7BC6AD4F09442D5EB0FF7711ECAB7580195814	System.Void UnityEngine.AudioSource::PlayHelper(UnityEngine.AudioSource,System.UInt64)	UnityEngine.AudioModule
+AudioSource_get_clip_mE4454E38D2C0A4C8CC780A435FC1DBD4D47D16DC	UnityEngine.AudioClip UnityEngine.AudioSource::get_clip()	UnityEngine.AudioModule
+AudioSource_set_clip_mD1F50F7BA6EA3AF25B4922473352C5180CFF7B2B	System.Void UnityEngine.AudioSource::set_clip(UnityEngine.AudioClip)	UnityEngine.AudioModule
 AwaitTaskContinuation__ctor_m0F9EF8336BA5CBD9FE7985DE0F4DE186A1934066	System.Void System.Threading.Tasks.AwaitTaskContinuation::.ctor(System.Action,System.Boolean)	mscorlib
 AwaitTaskContinuation__ctor_m1EF0CE6A7D92958E3694213B10448ED281733752	System.Void System.Threading.Tasks.AwaitTaskContinuation::.ctor(System.Action,System.Boolean,System.Threading.StackCrawlMark&)	mscorlib
 AwaitTaskContinuation_CreateTask_m00279C305E3B906B1247B8CC2ECAAEAAE93AE6AD	System.Threading.Tasks.Task System.Threading.Tasks.AwaitTaskContinuation::CreateTask(System.Action`1<System.Object>,System.Object,System.Threading.Tasks.TaskScheduler)	mscorlib
@@ -2174,6 +2179,8 @@ DND2nd_TransformPosition_m22445CF59CA5993D9CC4098290D8692FEAD14FAD	UnityEngine.Y
 DND2nd_Velocity_m00DE7738EC881CB66149674E147703EC74493EE0	UnityEngine.YieldInstruction DND2nd::Velocity(UnityEngine.Vector2)	Assembly-CSharp
 DNDisabler__ctor_m6A150B037B7C71559EBB5F7B83CC1478F180C342	System.Void DNDisabler::.ctor()	Assembly-CSharp
 DNDisabler_OnCollisionEnter2D_m14CFE78BE07A0C81C3F14F5548EA72CB59F3BD8B	System.Void DNDisabler::OnCollisionEnter2D(UnityEngine.Collision2D)	Assembly-CSharp
+DNDisabler_OnTriggerEnter2D_mFBFF36BB296D5A8DD741014637C3F29C45780DE3	System.Void DNDisabler::OnTriggerEnter2D(UnityEngine.Collider2D)	Assembly-CSharp
+DNDisabler_OnTriggerExit2D_m689D97841CE9DB6E11E34E006C8E565128A29578	System.Void DNDisabler::OnTriggerExit2D(UnityEngine.Collider2D)	Assembly-CSharp
 DNDisabler_Start_m7B5D4D996B149D5426EA4C4163BEBAC6532BBD94	System.Void DNDisabler::Start()	Assembly-CSharp
 DTSubString_get_Item_mE6663126234FE80EC2E1D53047080B1E0097CF33	System.Char System.DTSubString::get_Item(System.Int32)	mscorlib
 DataUtility_GetInnerUV_mDAA53C8F613CBB89345EE978D14599F5EE04891C	UnityEngine.Vector4 UnityEngine.Sprites.DataUtility::GetInnerUV(UnityEngine.Sprite)	UnityEngine.CoreModule
@@ -5901,6 +5908,8 @@ MulticastNotSupportedException__ctor_m8F832B65C5329208809FA9669CCD1ADEFB904202	S
 MulticastNotSupportedException__ctor_m9F0BC3FDC9E9B6F05080AECEC2A11467D56A2D0D	System.Void System.MulticastNotSupportedException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)	mscorlib
 MultipleDisplayUtilities_GetMousePositionRelativeToMainDisplayResolution_m87441277B0AB1E357A6B1BE454FC8F518BDA060E	UnityEngine.Vector2 UnityEngine.UI.MultipleDisplayUtilities::GetMousePositionRelativeToMainDisplayResolution()	UnityEngine.UI
 MultipleDisplayUtilities_GetRelativeMousePositionForDrag_mD78A6F9B5481AB808F54B1549409A443B33432D6	System.Boolean UnityEngine.UI.MultipleDisplayUtilities::GetRelativeMousePositionForDrag(UnityEngine.EventSystems.PointerEventData,UnityEngine.Vector2&)	UnityEngine.UI
+MusicPlayer__ctor_mA83600A144210E8586F4618ED75C614BFE6450FC	System.Void MusicPlayer::.ctor()	Assembly-CSharp
+MusicPlayer_Update_m7BD87702BA93E1CE0DA8D666975B48BF5ABC376E	System.Void MusicPlayer::Update()	Assembly-CSharp
 NameCache__cctor_mD1176B1A0A705829DF51F82116D4F08DEE4A4DD0	System.Void System.Runtime.Serialization.Formatters.Binary.NameCache::.cctor()	mscorlib
 NameCache__ctor_m5B71787F3C64AD89F4476CEE77A3E343C264AB3A	System.Void System.Runtime.Serialization.Formatters.Binary.NameCache::.ctor()	mscorlib
 NameCache_GetCachedValue_m0BD94DA04088A7B88FFF120F8471EA50C33EDC85	System.Object System.Runtime.Serialization.Formatters.Binary.NameCache::GetCachedValue(System.String)	mscorlib
@@ -6223,6 +6232,7 @@ Object_Destroy_m3EEDB6ECD49A541EC826EA8E1C8B599F7AF67D30	System.Void UnityEngine
 Object_Destroy_mAAAA103F4911E9FA18634BF9605C28559F5E2AC7	System.Void UnityEngine.Object::Destroy(UnityEngine.Object,System.Single)	UnityEngine.CoreModule
 Object_DestroyImmediate_mCCED69F4D4C9A4FA3AC30A142CF3D7F085F7C422	System.Void UnityEngine.Object::DestroyImmediate(UnityEngine.Object)	UnityEngine.CoreModule
 Object_DestroyImmediate_m69AA5B06236FACFF316DDFAD131B2622B397AC49	System.Void UnityEngine.Object::DestroyImmediate(UnityEngine.Object,System.Boolean)	UnityEngine.CoreModule
+Object_DontDestroyOnLoad_m03007A68ABBA4CCD8C27B944964983395E7640F9	System.Void UnityEngine.Object::DontDestroyOnLoad(UnityEngine.Object)	UnityEngine.CoreModule
 Object_Equals_m42425AB7E6C5B6E2BAB15B3184B23371AB0B3435	System.Boolean UnityEngine.Object::Equals(System.Object)	UnityEngine.CoreModule
 Object_FindObjectFromInstanceID_m0AD731D3F583CBBDC7DC0E08B38F742B447FA44A	UnityEngine.Object UnityEngine.Object::FindObjectFromInstanceID(System.Int32)	UnityEngine.CoreModule
 Object_FindObjectOfType_mFDEFCE84CE9C644F2B51DCC26CDAC78AC7E89B1B	UnityEngine.Object UnityEngine.Object::FindObjectOfType(System.Type,System.Boolean)	UnityEngine.CoreModule
@@ -12032,7 +12042,7 @@ Action_1__ctor_mA671E933C9D3DAE4E3F71D34FDDA971739618158_gshared	System.Void Sys
 Action_1_BeginInvoke_mA40911DC9E6152D370C68628D7CE4784D75E51D9_gshared	System.IAsyncResult System.Action`1<System.Object>::BeginInvoke(T,System.AsyncCallback,System.Object)	mscorlib
 Action_1_EndInvoke_m8AB9967156724C6ED6EA1A1C05A1AAD17981275E_gshared	System.Void System.Action`1<System.Object>::EndInvoke(System.IAsyncResult)	mscorlib
 Action_1_Invoke_m587509C88BB83721D7918D89DF07606BB752D744_gshared	System.Void System.Action`1<System.Object>::Invoke(T)	mscorlib
-Action_1__ctor_mA1131790E07477705CD8A08A98BBDF0B61EC3E02_gshared	System.Void System.Action`1<UnityEngine.U2D.SpriteAtlas>::.ctor(System.Object,System.IntPtr)	UnityEngine.UI
+Action_1__ctor_mA1131790E07477705CD8A08A98BBDF0B61EC3E02_gshared	System.Void System.Action`1<UnityEngine.U2D.SpriteAtlas>::.ctor(System.Object,System.IntPtr)	UnityEngine.CoreModule
 Action_1_Invoke_mEBACB3DB64C3739BD56B2D5678EDB990FF32728B_gshared	System.Void System.Action`1<UnityEngine.U2D.SpriteAtlas>::Invoke(!0)	UnityEngine.CoreModule
 Action_1_Invoke_m6E81F94353B45920E7018D209DCF4B63DBE8D8B6_gshared	System.Void System.Action`1<System.String>::Invoke(!0)	UnityEngine.CoreModule
 Action_1_Invoke_m63D19082C881BB0234EAFF7FBC246147239C49C0_gshared	System.Void System.Action`1<System.Threading.Tasks.Task>::Invoke(T)	mscorlib
@@ -12305,7 +12315,7 @@ ArraySortHelper_2_SwapIfGreaterWithItems_mA1AB5AAAA63520011D60C449F1DACC79AF8046
 ArraySortHelper_2_get_Default_mDE07B50C8772739846BF910C739B2000B151F11E_gshared	System.Collections.Generic.ArraySortHelper`2<TKey,TValue> System.Collections.Generic.ArraySortHelper`2<System.UInt64,System.Object>::get_Default()	mscorlib
 AsyncTaskMethodBuilder_1_GetTaskForResult_mA69F78A9CFF818615807266C8512D85D794667CA_gshared	System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>::GetTaskForResult(TResult)	mscorlib
 AsyncTaskMethodBuilder_1_get_Task_m45C5CE5DDB7A71CCADC9AB1657C906B5B2BEE7F1_gshared	System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>::get_Task()	mscorlib
-AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_t286C97C0AF102C4C0BE55CE2025CC7BD1FB5C20C_TisU3CWaitUntilCountOrTimeoutAsyncU3Ed__31_t227D1F5F19C948CA8C23C80B5F19147D4AAED14F_m06010DFBCE2CDD2AE1BB5ADD25230521E9B527DC_gshared	System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Boolean>,System.Threading.SemaphoreSlim/<WaitUntilCountOrTimeoutAsync>d__31>(TAwaiter&,TStateMachine&)	mscorlib
+AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_t286C97C0AF102C4C0BE55CE2025CC7BD1FB5C20C_TisU3CWaitUntilCountOrTimeoutAsyncU3Ed__31_t227D1F5F19C948CA8C23C80B5F19147D4AAED14F_m06010DFBCE2CDD2AE1BB5ADD25230521E9B527DC_gshared	System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Boolean>,System.Threading.SemaphoreSlim/<WaitUntilCountOrTimeoutAsync>d__31>(!!0&,!!1&)	mscorlib
 AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_t2CE498F9A6CE5405242AE2D77F03E58985B7C3ED_TisU3CWaitUntilCountOrTimeoutAsyncU3Ed__31_t227D1F5F19C948CA8C23C80B5F19147D4AAED14F_m4FDC6642836D25291A0E343845527873A88013C9_gshared	System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Object>,System.Threading.SemaphoreSlim/<WaitUntilCountOrTimeoutAsync>d__31>(TAwaiter&,TStateMachine&)	mscorlib
 AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_tF64824CB5C3CFE2E1C4CAFE410B4CDE6831E4C78_TisU3CWaitUntilCountOrTimeoutAsyncU3Ed__31_t227D1F5F19C948CA8C23C80B5F19147D4AAED14F_mCD4FFC8B3A29C87693225FCDF4BBAC5E7953BA91_gshared	System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.Task>,System.Threading.SemaphoreSlim/<WaitUntilCountOrTimeoutAsync>d__31>(!!0&,!!1&)	mscorlib
 AsyncTaskMethodBuilder_1_Start_TisU3CWaitUntilCountOrTimeoutAsyncU3Ed__31_t227D1F5F19C948CA8C23C80B5F19147D4AAED14F_m67A42FEF4C09E843DDA99A81F84E675F9AB87CF9_gshared	System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::Start<System.Threading.SemaphoreSlim/<WaitUntilCountOrTimeoutAsync>d__31>(TStateMachine&)	mscorlib
@@ -13890,7 +13900,7 @@ Func_1_Invoke_mCE02C3B1045ED4801FCB0AA7C72861807101C8DD_gshared	TResult System.F
 Func_1__ctor_m16429CB52E95263F4C11AB13CF51474AFB25D1B9_gshared	System.Void System.Func`1<System.Boolean>::.ctor(System.Object,System.IntPtr)	mscorlib
 Func_1_BeginInvoke_m1334479A4A7EEF902057737A514B00BC7F89217E_gshared	System.IAsyncResult System.Func`1<System.Boolean>::BeginInvoke(System.AsyncCallback,System.Object)	mscorlib
 Func_1_EndInvoke_m86A4760F9BEAFE6C019DD885A221AB48066F53D6_gshared	TResult System.Func`1<System.Boolean>::EndInvoke(System.IAsyncResult)	mscorlib
-Func_1_Invoke_mD0192F3F912E371387CD7B196DF85569553486B4_gshared	TResult System.Func`1<System.Boolean>::Invoke()	mscorlib
+Func_1_Invoke_mD0192F3F912E371387CD7B196DF85569553486B4_gshared	!0 System.Func`1<System.Boolean>::Invoke()	UnityEngine.CoreModule
 Func_1__ctor_mCEA921334BE688D8C04005FFF06E2BB2B5B096FE_gshared	System.Void System.Func`1<System.Int32>::.ctor(System.Object,System.IntPtr)	mscorlib
 Func_1_BeginInvoke_mA98E8BF81885C305F72D7AA1579C298DCB14B073_gshared	System.IAsyncResult System.Func`1<System.Int32>::BeginInvoke(System.AsyncCallback,System.Object)	mscorlib
 Func_1_EndInvoke_m345DECA034522633ACD896D4B93E0FFB364DDC7D_gshared	TResult System.Func`1<System.Int32>::EndInvoke(System.IAsyncResult)	mscorlib
@@ -14711,10 +14721,10 @@ KeyValuePair_2_get_Value_m244C9DDEE1055D648230C1EA0405CA7FBEB24CCE_gshared	TValu
 KeyValuePair_2__ctor_mC6638BB696AB08547385E5DC66DCB3060DFA091D_gshared	System.Void System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeType>::.ctor(TKey,TValue)	mscorlib
 KeyValuePair_2_get_Key_m9CAFFEA98191CB68C8E1DEAA692BF13B6C04F5DF_gshared	TKey System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeType>::get_Key()	mscorlib
 KeyValuePair_2_get_Value_mAD42F4030E9058AA29B7A1991420EE3C1EF228C8_gshared	TValue System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeType>::get_Value()	mscorlib
-KeyValuePair_2__ctor_mAC437FAF19B6F21DD90D59C629BA8F7967971E56_gshared	System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>::.ctor(!0,!1)	System
+KeyValuePair_2__ctor_mAC437FAF19B6F21DD90D59C629BA8F7967971E56_gshared	System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>::.ctor(TKey,TValue)	mscorlib
 KeyValuePair_2_ToString_m2D2D7459033F78B9AF0D88B2BB4A7928B6FC791F_gshared	System.String System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>::ToString()	mscorlib
-KeyValuePair_2_get_Key_mE3B72B1BB3B8DD41788D39A3AF38E6A94B241400_gshared	!0 System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>::get_Key()	System
-KeyValuePair_2_get_Value_m40417D9B18D29FD4A072DABC1449DACEF8009C6A_gshared	!1 System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>::get_Value()	System
+KeyValuePair_2_get_Key_mE3B72B1BB3B8DD41788D39A3AF38E6A94B241400_gshared	TKey System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>::get_Key()	mscorlib
+KeyValuePair_2_get_Value_m40417D9B18D29FD4A072DABC1449DACEF8009C6A_gshared	TValue System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>::get_Value()	mscorlib
 KeyValuePair_2__ctor_m38685BA70A8C37D1ABABB4A73A97A7F5ED0AC270_gshared	System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>::.ctor(TKey,TValue)	mscorlib
 KeyValuePair_2_ToString_mE819840750F962CCE6C12B7FE3DFF3C6BACD542C_gshared	System.String System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>::ToString()	mscorlib
 KeyValuePair_2_get_Key_mCA6E77030F4BE64105E6B3EFB3CBB8E6EC08CA0A_gshared	TKey System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>::get_Key()	mscorlib
@@ -14918,9 +14928,9 @@ List_1__cctor_m9AF6A9A0149FA81B5C522CCD6417BEC17F23662C_gshared	System.Void Syst
 List_1__ctor_m0004DFFA855F04212161673C8E84E9AE9BC83F4E_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.Color32>::.ctor()	mscorlib
 List_1__ctor_m8B2BC9FD5A29F5475299714B779FBBD9C575EFEA_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.Color32>::.ctor(System.Collections.Generic.IEnumerable`1<T>)	mscorlib
 List_1__ctor_mE968DAD0214093179B89DAAE6EDC13AFDA341C12_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.Color32>::.ctor(System.Int32)	mscorlib
-List_1_Add_m97DC82736F0DD1CB475124571831124BBDC57847_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.Color32>::Add(!0)	UnityEngine.UI
-List_1_AddRange_m6A4C0446DF95BFD0FBCE148CEDC0A572FE82ED13_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.Color32>::AddRange(System.Collections.Generic.IEnumerable`1<!0>)	UnityEngine.UI
-List_1_Clear_m83FE75551E6A40A29FDFF65DF681289573D8A03D_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.Color32>::Clear()	UnityEngine.UI
+List_1_Add_m97DC82736F0DD1CB475124571831124BBDC57847_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.Color32>::Add(T)	mscorlib
+List_1_AddRange_m6A4C0446DF95BFD0FBCE148CEDC0A572FE82ED13_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.Color32>::AddRange(System.Collections.Generic.IEnumerable`1<T>)	mscorlib
+List_1_Clear_m83FE75551E6A40A29FDFF65DF681289573D8A03D_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.Color32>::Clear()	mscorlib
 List_1_Contains_mB7B620B26C533641047CD0A63FBE4CFAD7D4DAB1_gshared	System.Boolean System.Collections.Generic.List`1<UnityEngine.Color32>::Contains(T)	mscorlib
 List_1_CopyTo_m6F9E893544A9CE2BF259AAA103E952C39DA5B02B_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.Color32>::CopyTo(T[])	mscorlib
 List_1_CopyTo_mA3F6F0582ECB9678C0ECD31E44C2B7EF1EDB4C5A_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.Color32>::CopyTo(T[],System.Int32)	mscorlib
@@ -14954,9 +14964,9 @@ List_1_System_Collections_IList_set_Item_mB895CA065B4A0EFC42A3C771BA38C448A74BD2
 List_1_ToArray_mA3C520752CBBDA00D8846B79583AAEA9DD86526C_gshared	T[] System.Collections.Generic.List`1<UnityEngine.Color32>::ToArray()	mscorlib
 List_1_get_Capacity_m57C3A2B1BECC8707268FBA958BFF81AB28C8661C_gshared	System.Int32 System.Collections.Generic.List`1<UnityEngine.Color32>::get_Capacity()	mscorlib
 List_1_get_Count_m6CB9D05062163FB254C968758FCB89BDD8DDF1EB_gshared	System.Int32 System.Collections.Generic.List`1<UnityEngine.Color32>::get_Count()	mscorlib
-List_1_get_Item_m18C2F32A08B3CCA28DBF32123E093F868BD9CB32_gshared	!0 System.Collections.Generic.List`1<UnityEngine.Color32>::get_Item(System.Int32)	UnityEngine.UI
+List_1_get_Item_m18C2F32A08B3CCA28DBF32123E093F868BD9CB32_gshared	T System.Collections.Generic.List`1<UnityEngine.Color32>::get_Item(System.Int32)	mscorlib
 List_1_set_Capacity_mE5453D4A493B9E586C36998813FA76427B0F1D8B_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.Color32>::set_Capacity(System.Int32)	mscorlib
-List_1_set_Item_m72D361E83B5B78DB588215BC67E3AA2EF2E49134_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.Color32>::set_Item(System.Int32,!0)	UnityEngine.UI
+List_1_set_Item_m72D361E83B5B78DB588215BC67E3AA2EF2E49134_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.Color32>::set_Item(System.Int32,T)	mscorlib
 List_1_RemoveAll_mE5C0C003E0B0731785081C6DF5B6B43CE77BC925_gshared	System.Int32 System.Collections.Generic.List`1<UnityEngine.Component>::RemoveAll(System.Predicate`1<!0>)	UnityEngine.UI
 List_1_get_Count_m9F55C8ADF8B0877FF8961B5A9BA55A9A7BFF904E_gshared	System.Int32 System.Collections.Generic.List`1<UnityEngine.Component>::get_Count()	UnityEngine.UI
 List_1_get_Item_m99F4A60865784DCE41B4ECAEBD910543BBB87A1F_gshared	!0 System.Collections.Generic.List`1<UnityEngine.Component>::get_Item(System.Int32)	UnityEngine.UI
@@ -15018,9 +15028,9 @@ List_1__cctor_m067611F1F47EB8746CAD41788DA5A00E1F5D771E_gshared	System.Void Syst
 List_1__ctor_m45E78772E9157F6CD684A69AAB07CE4082FE5FFD_gshared	System.Void System.Collections.Generic.List`1<System.Int32>::.ctor()	UnityEngine.CoreModule
 List_1__ctor_mB739A47A8D7D511C0D72A7849B95652FD7D26423_gshared	System.Void System.Collections.Generic.List`1<System.Int32>::.ctor(System.Collections.Generic.IEnumerable`1<T>)	mscorlib
 List_1__ctor_m2E6FAF166391779F0D33F6E8282BA71222DA1A91_gshared	System.Void System.Collections.Generic.List`1<System.Int32>::.ctor(System.Int32)	mscorlib
-List_1_Add_mEE653047BDB3486ACC2E16DC6C3422A0BA48F01F_gshared	System.Void System.Collections.Generic.List`1<System.Int32>::Add(!0)	UnityEngine.UI
-List_1_AddRange_mC88D9925C6FF0E600794E6235CED09BE7537AB4A_gshared	System.Void System.Collections.Generic.List`1<System.Int32>::AddRange(System.Collections.Generic.IEnumerable`1<!0>)	UnityEngine.UI
-List_1_Clear_m508B72E5229FAE7042D99A04555F66F10C597C7A_gshared	System.Void System.Collections.Generic.List`1<System.Int32>::Clear()	UnityEngine.UI
+List_1_Add_mEE653047BDB3486ACC2E16DC6C3422A0BA48F01F_gshared	System.Void System.Collections.Generic.List`1<System.Int32>::Add(!0)	UnityEngine.CoreModule
+List_1_AddRange_mC88D9925C6FF0E600794E6235CED09BE7537AB4A_gshared	System.Void System.Collections.Generic.List`1<System.Int32>::AddRange(System.Collections.Generic.IEnumerable`1<T>)	mscorlib
+List_1_Clear_m508B72E5229FAE7042D99A04555F66F10C597C7A_gshared	System.Void System.Collections.Generic.List`1<System.Int32>::Clear()	mscorlib
 List_1_Contains_mCA1215A6E5F7315854923DB7F5624182C9BA72D2_gshared	System.Boolean System.Collections.Generic.List`1<System.Int32>::Contains(T)	mscorlib
 List_1_CopyTo_m031F2870DFC8E4E8897306874210FEE6205F956C_gshared	System.Void System.Collections.Generic.List`1<System.Int32>::CopyTo(T[])	mscorlib
 List_1_CopyTo_mFCB9F986EE95A669DAE044C30C68FC35AF00F3D5_gshared	System.Void System.Collections.Generic.List`1<System.Int32>::CopyTo(T[],System.Int32)	mscorlib
@@ -15053,7 +15063,7 @@ List_1_System_Collections_IList_get_Item_m3CFCB880DAABBCB154B109F432F003C11B1193
 List_1_System_Collections_IList_set_Item_m26CC7C65FE6E365AC5C7ABAAB1551D35548C4C02_gshared	System.Void System.Collections.Generic.List`1<System.Int32>::System.Collections.IList.set_Item(System.Int32,System.Object)	mscorlib
 List_1_ToArray_mDEFFC768D9AAD376D27FC0FC1F7B57EE2E93479F_gshared	T[] System.Collections.Generic.List`1<System.Int32>::ToArray()	mscorlib
 List_1_get_Capacity_m035C26F4A97417E9A9D0EA4639D2B8425114DA17_gshared	System.Int32 System.Collections.Generic.List`1<System.Int32>::get_Capacity()	mscorlib
-List_1_get_Count_m7FA90926D9267868473EF90941F6BF794EC87FF2_gshared	System.Int32 System.Collections.Generic.List`1<System.Int32>::get_Count()	UnityEngine.UI
+List_1_get_Count_m7FA90926D9267868473EF90941F6BF794EC87FF2_gshared	System.Int32 System.Collections.Generic.List`1<System.Int32>::get_Count()	mscorlib
 List_1_get_Item_m730FCAD2646FA94B07D1216A512B09AB9F0BBA5D_gshared	T System.Collections.Generic.List`1<System.Int32>::get_Item(System.Int32)	mscorlib
 List_1_set_Capacity_m9848D36960B18F735CDA3EC91CA6739022815A48_gshared	System.Void System.Collections.Generic.List`1<System.Int32>::set_Capacity(System.Int32)	mscorlib
 List_1_set_Item_m85EC6079AE402A592416119251D7CB59B8A0E4A9_gshared	System.Void System.Collections.Generic.List`1<System.Int32>::set_Item(System.Int32,T)	mscorlib
@@ -15179,12 +15189,12 @@ List_1_get_Item_m5F400CBA048B4225B72B749E12ED6EFD7025AA36_gshared	T System.Colle
 List_1_set_Capacity_mC569742159BC8277195EB98E30D74303C63359AC_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.RaycastHit2D>::set_Capacity(System.Int32)	mscorlib
 List_1_set_Item_mB0B7138889C8CD1A7C848B69EBB4438973C43236_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.RaycastHit2D>::set_Item(System.Int32,T)	mscorlib
 List_1__cctor_m82225261208CBB795A064C285ECB8A9AF825C172_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::.cctor()	mscorlib
-List_1__ctor_m3B54A4C20C7EA7D3350768955A3CD521D7F069D3_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::.ctor()	UnityEngine.UI
+List_1__ctor_m3B54A4C20C7EA7D3350768955A3CD521D7F069D3_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::.ctor()	mscorlib
 List_1__ctor_m640C8C31FA7F35FB585AC090DBFCCECB4ACEE93F_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::.ctor(System.Collections.Generic.IEnumerable`1<T>)	mscorlib
 List_1__ctor_mD1F29CADB45CDC47AE42C4E6A2EF86681F37F9E4_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::.ctor(System.Int32)	mscorlib
-List_1_Add_m1D8125051801F4C77FF20A5AF6D0C12591C39EF5_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::Add(!0)	UnityEngine.UI
+List_1_Add_m1D8125051801F4C77FF20A5AF6D0C12591C39EF5_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::Add(T)	mscorlib
 List_1_AddRange_m7C81BE44C5E4685130B70DEBCB3E77BF08C09868_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::AddRange(System.Collections.Generic.IEnumerable`1<T>)	mscorlib
-List_1_Clear_m5D88EA8AA491CFF029747A32EF3F1793EE7B135B_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::Clear()	UnityEngine.UI
+List_1_Clear_m5D88EA8AA491CFF029747A32EF3F1793EE7B135B_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::Clear()	mscorlib
 List_1_Contains_m9E002639088E6103C0B288EC2EE102242D901DBA_gshared	System.Boolean System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::Contains(T)	mscorlib
 List_1_CopyTo_m4E9891E36D57F007D09BCC08754AD2C2C80A2064_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::CopyTo(T[])	mscorlib
 List_1_CopyTo_m55432B48B398935F5AB383F29CFA4985BAE77185_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::CopyTo(T[],System.Int32)	mscorlib
@@ -15200,7 +15210,7 @@ List_1_RemoveAll_m9219A92E6E74B16E022EB3ACB826F6D236471743_gshared	System.Int32 
 List_1_RemoveAt_mD80FD09162C46F1311E55015092EBE4E8312CCF9_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::RemoveAt(System.Int32)	mscorlib
 List_1_Reverse_m1FE4EA207B113B427936AD1BFFC803100A4845E3_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::Reverse()	mscorlib
 List_1_Reverse_m8669BBB03A28A24825A551AA3C9F5B5B5F652991_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::Reverse(System.Int32,System.Int32)	mscorlib
-List_1_Sort_m00CD5650D321CB0373675D4354B18055D1DCCB9C_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::Sort(System.Comparison`1<!0>)	UnityEngine.UI
+List_1_Sort_m00CD5650D321CB0373675D4354B18055D1DCCB9C_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::Sort(System.Comparison`1<T>)	mscorlib
 List_1_Sort_m0DB2C19E4FC66F19D9EBB3746D83C9F037CA0784_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::Sort(System.Collections.Generic.IComparer`1<T>)	mscorlib
 List_1_Sort_mEF7C73864D4A874F4B644956A46B7A54EE45B17B_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::Sort(System.Int32,System.Int32,System.Collections.Generic.IComparer`1<T>)	mscorlib
 List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_mD230AC9936D76F7578E32D352739A385BCD48CDE_gshared	System.Boolean System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()	mscorlib
@@ -15217,8 +15227,8 @@ List_1_System_Collections_IList_get_Item_m0D4875C13890DAD1AF235CBBF84AE07C5343CA
 List_1_System_Collections_IList_set_Item_mC7DB755BC539CCEE132C416806C6B568BCFD7003_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.set_Item(System.Int32,System.Object)	mscorlib
 List_1_ToArray_m5FD6A52ACF4679752CC86AD901F3363BAA5D3741_gshared	T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::ToArray()	mscorlib
 List_1_get_Capacity_m8B7BB08B0616829CDC5FDFD002C21959195C05D0_gshared	System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::get_Capacity()	mscorlib
-List_1_get_Count_m38EC27A53451661964C4F33683313E1FFF3A060D_gshared	System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::get_Count()	UnityEngine.UI
-List_1_get_Item_m8CAD57C6E350E1DA232EAAC07A84ED0C10D29CDB_gshared	!0 System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::get_Item(System.Int32)	UnityEngine.UI
+List_1_get_Count_m38EC27A53451661964C4F33683313E1FFF3A060D_gshared	System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::get_Count()	mscorlib
+List_1_get_Item_m8CAD57C6E350E1DA232EAAC07A84ED0C10D29CDB_gshared	T System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::get_Item(System.Int32)	mscorlib
 List_1_set_Capacity_mB1362C59A3BFBB7234DFAFD6746EE21F83869702_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::set_Capacity(System.Int32)	mscorlib
 List_1_set_Item_m208C6FD7523FBF6A3FAFFF5A1C737D4884C51E42_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::set_Item(System.Int32,T)	mscorlib
 List_1__ctor_m0122F916881428CFF7FAB3A25FABA25C14BE5F36_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>::.ctor()	UnityEngine.UI
@@ -15289,7 +15299,7 @@ List_1_get_Item_m20859F1CE79BCFF9C2FE9797466D64ABBEE186B1_gshared	T System.Colle
 List_1__cctor_mACDB1F513E722D84234592F716B7AA3FA9976ECA_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.UICharInfo>::.cctor()	mscorlib
 List_1__ctor_mDA28211973338E9CE5B836A62B2ACE13F4718612_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.UICharInfo>::.ctor()	mscorlib
 List_1__ctor_m043900FA92E87A46FFA018A83448F7693D9724D2_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.UICharInfo>::.ctor(System.Collections.Generic.IEnumerable`1<T>)	mscorlib
-List_1__ctor_m6432106765DE3FF8E8DFA123340C6730E73EB6A6_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.UICharInfo>::.ctor(System.Int32)	UnityEngine.TextRenderingModule
+List_1__ctor_m6432106765DE3FF8E8DFA123340C6730E73EB6A6_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.UICharInfo>::.ctor(System.Int32)	mscorlib
 List_1_Add_mE56C408954E81DA73C93413434E8A523C3A5B37B_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.UICharInfo>::Add(T)	mscorlib
 List_1_AddRange_mA2FFF8620D7FA80913E72D0163709B500A7EAB66_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.UICharInfo>::AddRange(System.Collections.Generic.IEnumerable`1<T>)	mscorlib
 List_1_Clear_m362666B37C85E537789FC29886E220641E8198FD_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.UICharInfo>::Clear()	mscorlib
@@ -15502,7 +15512,7 @@ List_1_get_Item_mBC15B4BA533085E756DCF99A50854221DC56EACD_gshared	!0 System.Coll
 List_1_set_Capacity_m4A272C6FE9C0C2D4A83CFFC6699AE605244D9A6D_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.Vector4>::set_Capacity(System.Int32)	mscorlib
 List_1_set_Item_m8FD13D7FBB9FF111E04333055A0048CD53D0F6C7_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.Vector4>::set_Item(System.Int32,!0)	UnityEngine.UI
 List_1__cctor_m45E88F670D757AF5E1B9B14E4091F61C502B0B3F_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock>::.cctor()	mscorlib
-List_1__ctor_m72F7D16363E99D623143F2BC45BCE1B5AB4D359D_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock>::.ctor()	mscorlib
+List_1__ctor_m72F7D16363E99D623143F2BC45BCE1B5AB4D359D_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock>::.ctor()	UnityEngine.CoreModule
 List_1__ctor_mEACE5246E203D75E36047469D85B5F7E24FAD267_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock>::.ctor(System.Collections.Generic.IEnumerable`1<T>)	mscorlib
 List_1__ctor_m8957533BBA318407FE6495A07FEDAC9B40249A5C_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock>::.ctor(System.Int32)	mscorlib
 List_1_Add_m274B05ABB1662ECF5DA534C7EDC1028E47A40D8D_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock>::Add(T)	mscorlib
@@ -15540,8 +15550,8 @@ List_1_System_Collections_IList_get_Item_mEFB6267CD62C2E75E20A81ECD745C171F9C6F3
 List_1_System_Collections_IList_set_Item_m9ACD10B77DE37AEAC9F9A81D43E3D1B16056DDE1_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.IList.set_Item(System.Int32,System.Object)	mscorlib
 List_1_ToArray_m48D1B750AB3A6887251ECCA33546754CD686CAD6_gshared	T[] System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock>::ToArray()	mscorlib
 List_1_get_Capacity_m3E7373473A49117CA5B751F8CC4C42295D0A84FC_gshared	System.Int32 System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock>::get_Capacity()	mscorlib
-List_1_get_Count_m25C7E9ECE61F6D5AF8F6FB184C0A60AED0473D2B_gshared	System.Int32 System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock>::get_Count()	mscorlib
-List_1_get_Item_m3E4D0AB46DBFAF53812AF05BB85BBE161520E65F_gshared	T System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock>::get_Item(System.Int32)	mscorlib
+List_1_get_Count_m25C7E9ECE61F6D5AF8F6FB184C0A60AED0473D2B_gshared	System.Int32 System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock>::get_Count()	UnityEngine.CoreModule
+List_1_get_Item_m3E4D0AB46DBFAF53812AF05BB85BBE161520E65F_gshared	!0 System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock>::get_Item(System.Int32)	UnityEngine.CoreModule
 List_1_set_Capacity_m62336A765E391BB7BBDCD280969B78D3B192242A_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock>::set_Capacity(System.Int32)	mscorlib
 List_1_set_Item_mB9D21BA5AF1FA9171CDC96ADD2454C0BECCC0102_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock>::set_Item(System.Int32,T)	mscorlib
 List_1__cctor_mB9C7A4747E72CBAFF323151CEAEBF5376249CE5F_gshared	System.Void System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>::.cctor()	mscorlib
@@ -16488,7 +16498,7 @@ UnityEvent_1_AddListener_mFCFAC8ACA3F75283268DC2629ADEB5504E8FC0C2_gshared	Syste
 UnityEvent_1_FindMethod_Impl_m883CB9322DD397C11303E11CE1D75DE4DAB7A2A1_gshared	System.Reflection.MethodInfo UnityEngine.Events.UnityEvent`1<System.Int32>::FindMethod_Impl(System.String,System.Type)	UnityEngine.CoreModule
 UnityEvent_1_GetDelegate_m042F0FF8A168ACCAC76DFF33398FF72BE89A13D4_gshared	UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`1<System.Int32>::GetDelegate(UnityEngine.Events.UnityAction`1<T0>)	UnityEngine.CoreModule
 UnityEvent_1_GetDelegate_m9F6A762AD5938FB4E433C68A6CAE0E064358B79E_gshared	UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`1<System.Int32>::GetDelegate(System.Object,System.Reflection.MethodInfo)	UnityEngine.CoreModule
-UnityEvent_1_Invoke_m75A79471AE45A1246054BDE3A9BFCEBA14967530_gshared	System.Void UnityEngine.Events.UnityEvent`1<System.Int32>::Invoke(!0)	UnityEngine.UI
+UnityEvent_1_Invoke_m75A79471AE45A1246054BDE3A9BFCEBA14967530_gshared	System.Void UnityEngine.Events.UnityEvent`1<System.Int32>::Invoke(T0)	UnityEngine.CoreModule
 UnityEvent_1_RemoveListener_m0DDD8A7A01D83C10E72C71631F8487FE817B264D_gshared	System.Void UnityEngine.Events.UnityEvent`1<System.Int32>::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)	UnityEngine.CoreModule
 UnityEvent_1__ctor_mC7E63F58C7EFC8E8747E3619B7564A7325F03D3B_gshared	System.Void UnityEngine.Events.UnityEvent`1<UnityEngine.Networking.PlayerConnection.MessageEventArgs>::.ctor()	UnityEngine.CoreModule
 UnityEvent_1_AddListener_m588B231377E07BA41EB6FFC48582DDF26C1045EA_gshared	System.Void UnityEngine.Events.UnityEvent`1<UnityEngine.Networking.PlayerConnection.MessageEventArgs>::AddListener(UnityEngine.Events.UnityAction`1<T0>)	UnityEngine.CoreModule
@@ -16509,7 +16519,7 @@ UnityEvent_1_FindMethod_Impl_m0622108A7CD81D5EF2A59382C769DC733EF3530F_gshared	S
 UnityEvent_1_GetDelegate_m40926337FC4AF792D319B9B4879DB2A5A8F723BC_gshared	UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`1<System.Single>::GetDelegate(UnityEngine.Events.UnityAction`1<T0>)	UnityEngine.CoreModule
 UnityEvent_1_GetDelegate_m67C17B30C677E6D59E0477957BC1B3645C39EE0C_gshared	UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`1<System.Single>::GetDelegate(System.Object,System.Reflection.MethodInfo)	UnityEngine.CoreModule
 UnityEvent_1_Invoke_m1DA4CADD93DA296D31E00A263219A99A9E0AFB0E_gshared	System.Void UnityEngine.Events.UnityEvent`1<System.Single>::Invoke(!0)	UnityEngine.UI
-UnityEvent_1_RemoveListener_m3EA4FA20F6DE6E6FC738060875193A99E19AD1C3_gshared	System.Void UnityEngine.Events.UnityEvent`1<System.Single>::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)	UnityEngine.CoreModule
+UnityEvent_1_RemoveListener_m3EA4FA20F6DE6E6FC738060875193A99E19AD1C3_gshared	System.Void UnityEngine.Events.UnityEvent`1<System.Single>::RemoveListener(UnityEngine.Events.UnityAction`1<!0>)	UnityEngine.UI
 UnityEvent_1__ctor_mD50FDA7FD92E5D18A75BF906A19D113AB769CDA8_gshared	System.Void UnityEngine.Events.UnityEvent`1<System.String>::.ctor()	UnityEngine.UI
 UnityEvent_1_FindMethod_Impl_mDCF43AD36972170AA698267CE2E5BD4B82B6FE04_gshared	System.Reflection.MethodInfo UnityEngine.Events.UnityEvent`1<System.String>::FindMethod_Impl(System.String,System.Type)	UnityEngine.CoreModule
 UnityEvent_1_GetDelegate_mD591926944E09143DE24749019C324A50B3DE240_gshared	UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`1<System.String>::GetDelegate(System.Object,System.Reflection.MethodInfo)	UnityEngine.CoreModule
@@ -16519,7 +16529,7 @@ UnityEvent_1_AddListener_m69EA39B3DD1F41AAE09CE783C7D03AF61BA91E6B_gshared	Syste
 UnityEvent_1_FindMethod_Impl_m8C7040459D38C21B6CA252658570FF207DFD5634_gshared	System.Reflection.MethodInfo UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>::FindMethod_Impl(System.String,System.Type)	UnityEngine.CoreModule
 UnityEvent_1_GetDelegate_m46723BEB228E805D70546FE0076C2F7B923334BE_gshared	UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>::GetDelegate(UnityEngine.Events.UnityAction`1<T0>)	UnityEngine.CoreModule
 UnityEvent_1_GetDelegate_m1443B62E96235B67C0275343AE1E00E5F456E82F_gshared	UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>::GetDelegate(System.Object,System.Reflection.MethodInfo)	UnityEngine.CoreModule
-UnityEvent_1_Invoke_mB4A40E66B8302949068CCFA2E3E1C15F625EA1CD_gshared	System.Void UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>::Invoke(T0)	UnityEngine.CoreModule
+UnityEvent_1_Invoke_mB4A40E66B8302949068CCFA2E3E1C15F625EA1CD_gshared	System.Void UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>::Invoke(!0)	UnityEngine.UI
 UnityEvent_1_RemoveListener_m4D54629C431821D2153C7E23584EDD379051B9DE_gshared	System.Void UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)	UnityEngine.CoreModule
 UnityEvent_2__ctor_mF60EF62AFB15A35F2DD69476A73537390423F21A_gshared	System.Void UnityEngine.Events.UnityEvent`2<System.Object,System.Object>::.ctor()	UnityEngine.CoreModule
 UnityEvent_2_FindMethod_Impl_m9DEDA5637D671AC58D580000A01B4B335B9923F0_gshared	System.Reflection.MethodInfo UnityEngine.Events.UnityEvent`2<System.Object,System.Object>::FindMethod_Impl(System.String,System.Type)	UnityEngine.CoreModule
@@ -17388,7 +17398,7 @@ Array_Sort_TisKeyValuePair_2_tB6ECB423D6D4B3D2F916E061DDF9A7C3F0958D57_m0B840111
 Array_Sort_TisColor32_tDB54A78627878A7D2DE42BB028D64306A18E858D_mA7F1538E0324A6C352433504E200030B0327F080_gshared	System.Void System.Array::Sort<UnityEngine.Color32>(T[],System.Int32,System.Int32,System.Collections.Generic.IComparer`1<T>)	mscorlib
 Array_Sort_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_mF08B721B1CB95B99B29729149C9397F38FA9D32E_gshared	System.Void System.Array::Sort<System.Int32>(T[],System.Int32,System.Int32,System.Collections.Generic.IComparer`1<T>)	mscorlib
 Array_Sort_TisRuntimeObject_mE90B1C0C816281C77EAD0E29C08D6805FAC75C57_gshared	System.Void System.Array::Sort<System.Object>(T[],System.Int32,System.Int32,System.Collections.Generic.IComparer`1<T>)	mscorlib
-Array_Sort_TisRaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89_m0AA71F59CEDD193A12051D2E86789AEFE15B0EED_gshared	System.Void System.Array::Sort<UnityEngine.RaycastHit>(!!0[],System.Int32,System.Int32,System.Collections.Generic.IComparer`1<!!0>)	UnityEngine.UI
+Array_Sort_TisRaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89_m0AA71F59CEDD193A12051D2E86789AEFE15B0EED_gshared	System.Void System.Array::Sort<UnityEngine.RaycastHit>(T[],System.Int32,System.Int32,System.Collections.Generic.IComparer`1<T>)	mscorlib
 Array_Sort_TisRaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4_m0089D30B0C0BB18F0BF8A89F53E9648F4489058C_gshared	System.Void System.Array::Sort<UnityEngine.RaycastHit2D>(T[],System.Int32,System.Int32,System.Collections.Generic.IComparer`1<T>)	mscorlib
 Array_Sort_TisRaycastResult_t9EFDE24B29650BD6DC8A49D954A3769E17146BCE_m4EA2D44DB509776D8D258CB3EB04810B2814223A_gshared	System.Void System.Array::Sort<UnityEngine.EventSystems.RaycastResult>(T[],System.Int32,System.Int32,System.Collections.Generic.IComparer`1<T>)	mscorlib
 Array_Sort_TisUICharInfo_tDEA65B831FAD06D1E9B10A6088E05C6D615B089A_m9F9DBE7CDEB22FB581D21C3A40D5D74521F1A916_gshared	System.Void System.Array::Sort<UnityEngine.UICharInfo>(T[],System.Int32,System.Int32,System.Collections.Generic.IComparer`1<T>)	mscorlib
@@ -17459,6 +17469,7 @@ Component_GetComponent_TisBoxCollider2D_t929D014FDE69DCA5443296C432D640BCBE7E30B
 Component_GetComponent_TisCamera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C_mE17146EF5B0D8E9F9D2D2D94567BF211AD00D320_gshared	!!0 UnityEngine.Component::GetComponent<UnityEngine.Camera>()	UnityEngine.UI
 Component_GetComponent_TisCanvas_t2B7E56B7BDC287962E092755372E214ACB6393EA_mD63281542675697ADC038B664E30F73F6BC1F1D1_gshared	!!0 UnityEngine.Component::GetComponent<UnityEngine.Canvas>()	UnityEngine.UI
 Component_GetComponent_TisCanvasRenderer_tCF8ABE659F7C3A6ED0D99A988D0BDFB651310F0E_mABBC259D3C81D99DC55D60732CFEEAF7757B6C0E_gshared	!!0 UnityEngine.Component::GetComponent<UnityEngine.CanvasRenderer>()	UnityEngine.UI
+Component_GetComponent_TisDND2nd_tC8B5832D249D8C2F41A74F0FB07F078F1FE3E401_m83E7F4AB94D75B2F3185CC7EA9B683F2F910A322_gshared	!!0 UnityEngine.Component::GetComponent<DND2nd>()	Assembly-CSharp
 Component_GetComponent_TisEventSystem_t5DC458FCD0355A74CDCCE79287B38B9C4278E39C_m1B49BC63CCD7706DA1800174F4BB49E13E82A887_gshared	!!0 UnityEngine.Component::GetComponent<UnityEngine.EventSystems.EventSystem>()	UnityEngine.UI
 Component_GetComponent_TisGraphic_tF07D777035055CF93BA5F46F77ED5EDFEFF9AE24_mC2B96FBBFDBEB7FC16A23436F3C7A3C2740CAAA1_gshared	!!0 UnityEngine.Component::GetComponent<UnityEngine.UI.Graphic>()	UnityEngine.UI
 Component_GetComponent_TisImage_t4021FF27176E44BFEDDCBE43C7FE6B713EC70D3C_m16EE05A2EC191674136625164C3D3B0162E2FBBB_gshared	!!0 UnityEngine.Component::GetComponent<UnityEngine.UI.Image>()	UnityEngine.UI

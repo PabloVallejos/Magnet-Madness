@@ -92,91 +92,99 @@ extern void U3CDragU3Ed__8_System_Collections_IEnumerator_get_Current_m7FA50A51C
 extern void DNDisabler_Start_m7B5D4D996B149D5426EA4C4163BEBAC6532BBD94 (void);
 // 0x00000028 System.Void DNDisabler::OnCollisionEnter2D(UnityEngine.Collision2D)
 extern void DNDisabler_OnCollisionEnter2D_m14CFE78BE07A0C81C3F14F5548EA72CB59F3BD8B (void);
-// 0x00000029 System.Void DNDisabler::.ctor()
+// 0x00000029 System.Void DNDisabler::OnTriggerEnter2D(UnityEngine.Collider2D)
+extern void DNDisabler_OnTriggerEnter2D_mFBFF36BB296D5A8DD741014637C3F29C45780DE3 (void);
+// 0x0000002A System.Void DNDisabler::OnTriggerExit2D(UnityEngine.Collider2D)
+extern void DNDisabler_OnTriggerExit2D_m689D97841CE9DB6E11E34E006C8E565128A29578 (void);
+// 0x0000002B System.Void DNDisabler::.ctor()
 extern void DNDisabler__ctor_m6A150B037B7C71559EBB5F7B83CC1478F180C342 (void);
-// 0x0000002A System.Void DragNDrop::Start()
+// 0x0000002C System.Void DragNDrop::Start()
 extern void DragNDrop_Start_mDCC0227FFB0E63178540FFAC613470EF3AA97EF8 (void);
-// 0x0000002B System.Void DragNDrop::Update()
+// 0x0000002D System.Void DragNDrop::Update()
 extern void DragNDrop_Update_mA26A9343365FE8F40210BEC7E8A02A0F3B27DB98 (void);
-// 0x0000002C System.Void DragNDrop::.ctor()
+// 0x0000002E System.Void DragNDrop::.ctor()
 extern void DragNDrop__ctor_mA838DCBB863BD1352F5097C59BDF46B8F82F0EB6 (void);
-// 0x0000002D System.Void EnableButton::Start()
+// 0x0000002F System.Void EnableButton::Start()
 extern void EnableButton_Start_m6DC40FF43F702E043D48A26FCA172063B5EA7A93 (void);
-// 0x0000002E System.Void EnableButton::FixedUpdate()
+// 0x00000030 System.Void EnableButton::FixedUpdate()
 extern void EnableButton_FixedUpdate_mC6BEE4D1C1DA84AD883C0B56309AFA4973C4447A (void);
-// 0x0000002F System.Void EnableButton::.ctor()
+// 0x00000031 System.Void EnableButton::.ctor()
 extern void EnableButton__ctor_mFA9FEEF1CAD75E03C7258A56EDB5135E5C52E885 (void);
-// 0x00000030 System.Void Joints::OnTriggerStay2D(UnityEngine.Collider2D)
+// 0x00000032 System.Void Joints::OnTriggerStay2D(UnityEngine.Collider2D)
 extern void Joints_OnTriggerStay2D_mDB5D6B6FE960427CC6FFF482CC6FCFAE706AA793 (void);
-// 0x00000031 System.Void Joints::OnTriggerExit2D(UnityEngine.Collider2D)
+// 0x00000033 System.Void Joints::OnTriggerExit2D(UnityEngine.Collider2D)
 extern void Joints_OnTriggerExit2D_m286C04511A7651D49E61A3AD7B3D3A3104BC7B4C (void);
-// 0x00000032 System.Void Joints::.ctor()
+// 0x00000034 System.Void Joints::.ctor()
 extern void Joints__ctor_m276178939FA684E27D5EECE3F48FC5150A9AC1F2 (void);
-// 0x00000033 System.Void LVLName::FixedUpdate()
+// 0x00000035 System.Void LVLName::FixedUpdate()
 extern void LVLName_FixedUpdate_m26FFE7F9F26C20DAB4F90901EA4262E8B86BB790 (void);
-// 0x00000034 System.Void LVLName::.ctor()
+// 0x00000036 System.Void LVLName::.ctor()
 extern void LVLName__ctor_mAB44BAB4B0467FBC17AD6BF2C3F911986FB7458E (void);
-// 0x00000035 System.Void MZone::Update()
+// 0x00000037 System.Void MZone::Update()
 extern void MZone_Update_m780C0FA8355824D7008B5290319FEC05FB0A6FED (void);
-// 0x00000036 System.Void MZone::OnCollisionEnter2D(UnityEngine.Collision2D)
+// 0x00000038 System.Void MZone::OnCollisionEnter2D(UnityEngine.Collision2D)
 extern void MZone_OnCollisionEnter2D_mBE80F02780D4E98B9FA5F0ED3B6BA528671A5620 (void);
-// 0x00000037 System.Void MZone::OnCollisionExit2D(UnityEngine.Collision2D)
+// 0x00000039 System.Void MZone::OnCollisionExit2D(UnityEngine.Collision2D)
 extern void MZone_OnCollisionExit2D_mFE4C18344C967B3CA4903BB0FBF8984F08E5E726 (void);
-// 0x00000038 System.Void MZone::.ctor()
+// 0x0000003A System.Void MZone::.ctor()
 extern void MZone__ctor_mE34623C7080AD96E9A1F23935F3CFC3A5B2DC359 (void);
-// 0x00000039 System.Void Magnet2::Start()
+// 0x0000003B System.Void Magnet2::Start()
 extern void Magnet2_Start_m7D652768C3B47C749DBED471739E440432E71FB0 (void);
-// 0x0000003A System.Void Magnet2::FixedUpdate()
+// 0x0000003C System.Void Magnet2::FixedUpdate()
 extern void Magnet2_FixedUpdate_m09D28A85D7B22F469B065A2FB1F4E3033225652D (void);
-// 0x0000003B System.Void Magnet2::OnTriggerEnter(UnityEngine.Collider)
+// 0x0000003D System.Void Magnet2::OnTriggerEnter(UnityEngine.Collider)
 extern void Magnet2_OnTriggerEnter_m770AA24253BD7957E037F8C0E723F5D96A9821B3 (void);
-// 0x0000003C System.Void Magnet2::OnTriggerExit(UnityEngine.Collider)
+// 0x0000003E System.Void Magnet2::OnTriggerExit(UnityEngine.Collider)
 extern void Magnet2_OnTriggerExit_mBCC0DCE9798DA8D29D754FFA869E5BADB096806B (void);
-// 0x0000003D System.Void Magnet2::ApplyMagneticForce(MagnetizedObject)
+// 0x0000003F System.Void Magnet2::ApplyMagneticForce(MagnetizedObject)
 extern void Magnet2_ApplyMagneticForce_m06A7B92116ACDFF42A8BDCED90A2A0782FFCF840 (void);
-// 0x0000003E System.Void Magnet2::.ctor()
+// 0x00000040 System.Void Magnet2::.ctor()
 extern void Magnet2__ctor_m37B58D061B2B6E9DABFAC132184D589EB3E28F84 (void);
-// 0x0000003F System.Void MagnetizedObject::.ctor()
+// 0x00000041 System.Void MagnetizedObject::.ctor()
 extern void MagnetizedObject__ctor_m13B0661AD6F2B41C91E06985DC545ABF3917ADDE (void);
-// 0x00000040 System.Void Magnets::Start()
+// 0x00000042 System.Void Magnets::Start()
 extern void Magnets_Start_m398970F737BBF9B66F6DBB35E42B21C84ACE11A9 (void);
-// 0x00000041 System.Void Magnets::FixedUpdate()
+// 0x00000043 System.Void Magnets::FixedUpdate()
 extern void Magnets_FixedUpdate_m2127BFF14A6BE6A995772A87C02A9D09386EC243 (void);
-// 0x00000042 System.Void Magnets::OnTriggerEnter2D(UnityEngine.Collider2D)
+// 0x00000044 System.Void Magnets::OnTriggerEnter2D(UnityEngine.Collider2D)
 extern void Magnets_OnTriggerEnter2D_m83B77165451C66CCB6F433DA16C8AE293E9AD3CB (void);
-// 0x00000043 System.Void Magnets::OnCollisionEnter2D(UnityEngine.Collision2D)
+// 0x00000045 System.Void Magnets::OnCollisionEnter2D(UnityEngine.Collision2D)
 extern void Magnets_OnCollisionEnter2D_m39E270A35EAD5E029F22D9E57FACC32DC3435852 (void);
-// 0x00000044 System.Void Magnets::OnCollisionExit2D(UnityEngine.Collision2D)
+// 0x00000046 System.Void Magnets::OnCollisionExit2D(UnityEngine.Collision2D)
 extern void Magnets_OnCollisionExit2D_mDEF77062467A2DA37849A5155FD3FB93F546D90F (void);
-// 0x00000045 System.Void Magnets::OnTriggerExit2D(UnityEngine.Collider2D)
+// 0x00000047 System.Void Magnets::OnTriggerExit2D(UnityEngine.Collider2D)
 extern void Magnets_OnTriggerExit2D_mA243F98139610844526E3157552A74B6EEFE5CD6 (void);
-// 0x00000046 System.Void Magnets::.ctor()
+// 0x00000048 System.Void Magnets::.ctor()
 extern void Magnets__ctor_mE5B64C257FDCA2B5FA3F348EF7ABDA97AB9168F0 (void);
-// 0x00000047 System.Void MetalMov::Start()
+// 0x00000049 System.Void MetalMov::Start()
 extern void MetalMov_Start_m0314B26FE68EA422534031133A588E038D4462A6 (void);
-// 0x00000048 System.Void MetalMov::FixedUpdate()
+// 0x0000004A System.Void MetalMov::FixedUpdate()
 extern void MetalMov_FixedUpdate_mFFED9B8B44E7CD54C7ED6BB10D81245D91E4E355 (void);
-// 0x00000049 System.Void MetalMov::.ctor()
+// 0x0000004B System.Void MetalMov::.ctor()
 extern void MetalMov__ctor_m10F6284E50854C84AC2BE42AEBC7C6782AC12780 (void);
-// 0x0000004A System.Void Scroller::Update()
+// 0x0000004C System.Void MusicPlayer::Update()
+extern void MusicPlayer_Update_m7BD87702BA93E1CE0DA8D666975B48BF5ABC376E (void);
+// 0x0000004D System.Void MusicPlayer::.ctor()
+extern void MusicPlayer__ctor_mA83600A144210E8586F4618ED75C614BFE6450FC (void);
+// 0x0000004E System.Void Scroller::Update()
 extern void Scroller_Update_mBE5B694A87D91D7FF1EDAD4DE5A014AF931DCCE9 (void);
-// 0x0000004B System.Void Scroller::.ctor()
+// 0x0000004F System.Void Scroller::.ctor()
 extern void Scroller__ctor_m2CAF8D0A3C812C87B3C620F27A73D64C66D201A2 (void);
-// 0x0000004C System.Void Shooter::Start()
+// 0x00000050 System.Void Shooter::Start()
 extern void Shooter_Start_mBA83984BC9920FA1D7FF4B5F60389CC102F8CE77 (void);
-// 0x0000004D System.Void Shooter::FixedUpdate()
+// 0x00000051 System.Void Shooter::FixedUpdate()
 extern void Shooter_FixedUpdate_mAE5EF3A229F96A18D817674F378479A86BA0CB1F (void);
-// 0x0000004E System.Void Shooter::.ctor()
+// 0x00000052 System.Void Shooter::.ctor()
 extern void Shooter__ctor_m173C774BF5668018A0B10ACA4BB5A6DA3A6BAF2D (void);
-// 0x0000004F System.Void Spiner::FixedUpdate()
+// 0x00000053 System.Void Spiner::FixedUpdate()
 extern void Spiner_FixedUpdate_m85B990BC856143C0E5DE20F5EB4E57CBB0B87D06 (void);
-// 0x00000050 System.Void Spiner::.ctor()
+// 0x00000054 System.Void Spiner::.ctor()
 extern void Spiner__ctor_m60C1936ADFEF6D1D22A965B133A8DD6469487814 (void);
-// 0x00000051 System.Void Switch::OnTriggerEnter2D(UnityEngine.Collider2D)
+// 0x00000055 System.Void Switch::OnTriggerEnter2D(UnityEngine.Collider2D)
 extern void Switch_OnTriggerEnter2D_m7897D50E84CE1EF414DE13472CD375D26DC6C8B1 (void);
-// 0x00000052 System.Void Switch::.ctor()
+// 0x00000056 System.Void Switch::.ctor()
 extern void Switch__ctor_m1F7974E3C0BF7050AAAD71640CDF1538DBF4A454 (void);
-static Il2CppMethodPointer s_methodPointers[82] = 
+static Il2CppMethodPointer s_methodPointers[86] = 
 {
 	ADND_Awake_m77069357A594D325CC087F47B13291B8A1311CF6,
 	ADND_OnMouseDown_m1207FEF9DAFBFAD673022688C9E60F87F323C7AB,
@@ -218,6 +226,8 @@ static Il2CppMethodPointer s_methodPointers[82] =
 	U3CDragU3Ed__8_System_Collections_IEnumerator_get_Current_m7FA50A51CF47CAFB58574BADB5E3DBF7701026DE,
 	DNDisabler_Start_m7B5D4D996B149D5426EA4C4163BEBAC6532BBD94,
 	DNDisabler_OnCollisionEnter2D_m14CFE78BE07A0C81C3F14F5548EA72CB59F3BD8B,
+	DNDisabler_OnTriggerEnter2D_mFBFF36BB296D5A8DD741014637C3F29C45780DE3,
+	DNDisabler_OnTriggerExit2D_m689D97841CE9DB6E11E34E006C8E565128A29578,
 	DNDisabler__ctor_m6A150B037B7C71559EBB5F7B83CC1478F180C342,
 	DragNDrop_Start_mDCC0227FFB0E63178540FFAC613470EF3AA97EF8,
 	DragNDrop_Update_mA26A9343365FE8F40210BEC7E8A02A0F3B27DB98,
@@ -251,6 +261,8 @@ static Il2CppMethodPointer s_methodPointers[82] =
 	MetalMov_Start_m0314B26FE68EA422534031133A588E038D4462A6,
 	MetalMov_FixedUpdate_mFFED9B8B44E7CD54C7ED6BB10D81245D91E4E355,
 	MetalMov__ctor_m10F6284E50854C84AC2BE42AEBC7C6782AC12780,
+	MusicPlayer_Update_m7BD87702BA93E1CE0DA8D666975B48BF5ABC376E,
+	MusicPlayer__ctor_mA83600A144210E8586F4618ED75C614BFE6450FC,
 	Scroller_Update_mBE5B694A87D91D7FF1EDAD4DE5A014AF931DCCE9,
 	Scroller__ctor_m2CAF8D0A3C812C87B3C620F27A73D64C66D201A2,
 	Shooter_Start_mBA83984BC9920FA1D7FF4B5F60389CC102F8CE77,
@@ -261,7 +273,7 @@ static Il2CppMethodPointer s_methodPointers[82] =
 	Switch_OnTriggerEnter2D_m7897D50E84CE1EF414DE13472CD375D26DC6C8B1,
 	Switch__ctor_m1F7974E3C0BF7050AAAD71640CDF1538DBF4A454,
 };
-static const int32_t s_InvokerIndices[82] = 
+static const int32_t s_InvokerIndices[86] = 
 {
 	1128,
 	1128,
@@ -303,6 +315,8 @@ static const int32_t s_InvokerIndices[82] =
 	1097,
 	1128,
 	968,
+	968,
+	968,
 	1128,
 	1128,
 	1128,
@@ -332,6 +346,8 @@ static const int32_t s_InvokerIndices[82] =
 	968,
 	968,
 	968,
+	1128,
+	1128,
 	1128,
 	1128,
 	1128,
@@ -351,7 +367,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	82,
+	86,
 	s_methodPointers,
 	0,
 	NULL,
